@@ -3,7 +3,7 @@ Summary:	Heap perl module
 Summary(pl):	Modu³ perla Heap
 Name:		perl-Heap
 Version:	0.50
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
