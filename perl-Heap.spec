@@ -8,8 +8,8 @@ Summary(pl):	Modu³ perla Heap
 Name:		perl-Heap
 Version:	0.70
 Release:	1
-# same as Perl
-License:	GPL or Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Heap/Heap-%{version}.tar.gz
 # Source0-md5:	51538c57b26ca2fa1afba16a75d90b5b
