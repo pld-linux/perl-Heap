@@ -28,7 +28,7 @@ sterty.
 %setup -q -n Heap-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 %{!?_without_tests:%{__make} test}
 
