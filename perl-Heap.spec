@@ -7,12 +7,12 @@ Summary:	Heap perl module
 Summary(pl):	Modu³ perla Heap
 Name:		perl-Heap
 Version:	0.50
-Release:	6
+Release:	7
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Heap/Heap-%{version}.tar.gz
 BuildRequires:	perl >= 5.6.1
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -28,7 +28,8 @@ sterty.
 %setup -q -n Heap-%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 %{!?_without_tests:%{__make} test}
 
@@ -43,8 +44,8 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
-%{perl_sitelib}/Heap.pm
-%{perl_sitelib}/Heap
+%{perl_vendorlib}/Heap.pm
+%{perl_vendorlib}/Heap
 # empty autosplit.ix files
-#%%{perl_sitelib}/auto/Heap
+#%%{perl_vendorlib}/auto/Heap
 %{_mandir}/man3/*
