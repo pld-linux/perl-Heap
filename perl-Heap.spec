@@ -13,7 +13,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Heap/Heap-%{version}.tar.gz
 # Source0-md5:	51538c57b26ca2fa1afba16a75d90b5b
-BuildRequires:	perl-devel >= 5.8
+BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
