@@ -4,7 +4,7 @@
 
 %include	/usr/lib/rpm/macros.perl
 Summary:	Heap - Perl extensions for keeping data partially sorted
-Summary(pl):	Heap - rozszerzenie Perla do przechowywania dznych czê¶ciowo posortowanych
+Summary(pl):	Heap - rozszerzenie Perla do przechowywania danych czê¶ciowo posortowanych
 Name:		perl-Heap
 Version:	0.71
 Release:	1
