@@ -4,10 +4,10 @@ Summary(pl):	Modu³ perla Heap
 Name:		perl-Heap
 Version:	0.01
 Release:	3
-Copyright:	GPL
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Heap/Heap-%{version}.tar.gz
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Heap/Heap-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
 %requires_eq	perl
@@ -15,7 +15,8 @@ Requires:	%{perl_sitearch}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Heap module is a collection of routines for managing a heap data structure.
+Heap module is a collection of routines for managing a heap data
+structure.
 
 %description -l pl
 Modu³ Heap to kolekcja rutyn do zarz±dzania struktur± danych stosu.
