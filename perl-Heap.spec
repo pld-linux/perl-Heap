@@ -6,13 +6,13 @@
 Summary:	Heap - Perl extensions for keeping data partially sorted
 Summary(pl):	Heap - rozszerzenie Perla do przechowywania dznych czê¶ciowo posortowanych
 Name:		perl-Heap
-Version:	0.70
-Release:	2
+Version:	0.71
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Heap/Heap-%{version}.tar.gz
-# Source0-md5:	51538c57b26ca2fa1afba16a75d90b5b
+# Source0-md5:	6934be7ffe351b3eea844d24a07ebc36
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
