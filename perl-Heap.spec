@@ -46,5 +46,5 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_sitelib}/Heap.pm
 %{perl_sitelib}/Heap
 # empty autosplit.ix files
-#%{perl_sitelib}/auto/Heap
+#%%{perl_sitelib}/auto/Heap
 %{_mandir}/man3/*
