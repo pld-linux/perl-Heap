@@ -10,7 +10,7 @@ Version:	0.50
 Release:	6
 License:	GPL
 Group:		Development/Languages/Perl
-Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/Heap/Heap-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Heap/Heap-%{version}.tar.gz
 BuildRequires:	perl >= 5.6.1
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildArch:	noarch
