@@ -7,7 +7,7 @@ Summary:	Heap perl module
 Summary(pl):	Modu³ perla Heap
 Name:		perl-Heap
 Version:	0.50
-Release:	6
+Release:	7
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Heap/Heap-%{version}.tar.gz
