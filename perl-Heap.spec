@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 
 %include	/usr/lib/rpm/macros.perl
-Summary:	Heap perl module
-Summary(pl):	Modu³ perla Heap
+Summary:	Heap - Perl extensions for keeping data partially sorted
+Summary(pl):	Heap - rozszerzenie Perla do przechowywania dznych czê¶ciowo posortowanych
 Name:		perl-Heap
 Version:	0.70
 Release:	1
@@ -22,9 +22,16 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Heap module is a collection of routines for managing a heap data
 structure.
 
+The Heap collection of modules provide routines that manage a heap of
+elements.  A heap is a partially sorted structure that is always able
+to easily extract the smallest of the elements in the structure (or
+the largest if a reversed compare routine is provided).
+
 %description -l pl
-Modu³ Heap to kolekcja procedur do zarz±dzania struktur± danych
-sterty.
+Zestaw modu³ów Heap to udostêpnia procedury do zarz±dzania struktur±
+danych sterty. Sterta to czê¶ciowo posortowana struktura danych, która
+umo¿liwia ³atwe znalezienie elementu najmniejszego (lub najwiêkszego w
+przypadku podania odwrotnej funkcji porównuj±cej).
 
 %prep
 %setup -q -n Heap-%{version}
