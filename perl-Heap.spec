@@ -4,7 +4,7 @@
 
 %include	/usr/lib/rpm/macros.perl
 Summary:	Heap - Perl extensions for keeping data partially sorted
-Summary(pl):	Heap - rozszerzenie Perla do przechowywania danych czê¶ciowo posortowanych
+Summary(pl.UTF-8):   Heap - rozszerzenie Perla do przechowywania danych czÄ™Å›ciowo posortowanych
 Name:		perl-Heap
 Version:	0.71
 Release:	1
@@ -27,11 +27,11 @@ elements.  A heap is a partially sorted structure that is always able
 to easily extract the smallest of the elements in the structure (or
 the largest if a reversed compare routine is provided).
 
-%description -l pl
-Zestaw modu³ów Heap to udostêpnia procedury do zarz±dzania struktur±
-danych sterty. Sterta to czê¶ciowo posortowana struktura danych, która
-umo¿liwia ³atwe znalezienie elementu najmniejszego (lub najwiêkszego w
-przypadku podania odwrotnej funkcji porównuj±cej).
+%description -l pl.UTF-8
+Zestaw moduÅ‚Ã³w Heap to udostÄ™pnia procedury do zarzÄ…dzania strukturÄ…
+danych sterty. Sterta to czÄ™Å›ciowo posortowana struktura danych, ktÃ³ra
+umoÅ¼liwia Å‚atwe znalezienie elementu najmniejszego (lub najwiÄ™kszego w
+przypadku podania odwrotnej funkcji porÃ³wnujÄ…cej).
 
 %prep
 %setup -q -n Heap-%{version}
