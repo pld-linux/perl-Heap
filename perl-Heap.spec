@@ -1,7 +1,7 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-
+#
 %include	/usr/lib/rpm/macros.perl
 Summary:	Heap - Perl extensions for keeping data partially sorted
 Summary(pl.UTF-8):	Heap - rozszerzenie Perla do przechowywania danych częściowo posortowanych
@@ -13,6 +13,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Heap/Heap-%{version}.tar.gz
 # Source0-md5:	05fed19a7552dadee11c780cd68c0116
+URL:		http://search.cpan.org/dist/Heap/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
